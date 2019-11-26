@@ -1,0 +1,13 @@
+	Average Temp	Precipitation (In)
+Jan	24.62	0.06
+Feb	29.04	0.29
+March	33.83	0.06
+April	40.47	0.1
+May	65.58	0.27
+June	69.99	0.16
+July	72.69	0.02
+Aug	71.86	0.15
+Sept	66.42	0.1
+Oct	50.4	0.13
+Nov	33.88	0.1
+Dec	32.16	0.05

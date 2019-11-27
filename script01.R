@@ -7,7 +7,14 @@
 #This program will show examine the relationship between reaction times of dominant and nondominant hands. 
 library(ggplot2)
 reaction_times <- read.delim("dominant_vs_nondominant_reactions.txt", header=TRUE)
-a <- ggplot(data=reaction_times, mapping=aes(x="Average_Dominant_Hand_Time", y="Average_NonDominant_Hand_Time_ms"))+
-  geom_point(x="Average_Dominant_Hand_Time_ms", y="Average_NonDominant_Hand_Time_ms")+
+a <- ggplot(data=reaction_times, mapping=aes(x=reaction_times$Average_Dominant_Hand_Time_ms, y=reaction_times$Average_NonDominant_Hand_Time_ms))+
+  
+  #creates labels of X and Y axes. 
+  xlab("Average Dominant Hand Reaction Time") + ylab("Average Non-Dominant Hand Reaction Time") +
+ 
+  #creates a scatterplot
+   geom_point()+
+  
+  #adds a linear trend line
   geom_smooth(method="lm")
 a

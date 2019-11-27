@@ -6,7 +6,10 @@ library(cowplot)
 library(reshape2)
 
 #1.
-
+#Loading data
+lakeData=read.csv("~/Desktop/Biocomp/Biocom_exercise09/BiocompExercise09Data.csv")
+ggplot(data=lakeData, aes(x=IceCover, y=AvgWinterTemp))+theme_classic()+geom_point()+
+  stat_smooth(method="lm", color="black")+xlab("Ice Cover (days)")+ylab("Avg Winter Temp (degrees F)")
 
 #2.
 #Loading data- actually csv

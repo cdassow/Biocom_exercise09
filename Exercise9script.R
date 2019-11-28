@@ -1,6 +1,6 @@
 #QUESTION 1
 library(ggplot2)
-#create something that will load your file and then plot two of its columns
+#read your data file and plot its 2 columns with a trendline
 p <- read.csv("parasiteexample.csv", header=TRUE, stringsAsFactors = FALSE)
 ggplot(p, aes(Age, Trichuris.Count)) + geom_point() + labs(x="Age", y="Trichuris Load") + geom_smooth() + theme_classic()
 
@@ -18,6 +18,6 @@ ggplot(data, aes(x=region, y=observations)) + geom_jitter() + labs(x="Region", y
 #ANSWERING THE QUESTION THAT IS A PART OF QUESTION 2
 #do the mean bar plot and geom jitter plot tell you different stories????
 
-#Yes, they tell you different stories, they show you the actual distributions of all the observation points
-#the means all look very similar, but the distributions are quite different.
+#Yes, they tell you different stories, the geom jitter plot shows you the actual distributions of all the observation points
+#the means all look very similar (as seen in the bar plot), but the distributions are quite different.
 #the mean bar plot does not tell you anything about the distribution of the points 

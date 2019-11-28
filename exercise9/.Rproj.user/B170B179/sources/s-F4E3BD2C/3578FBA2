@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574904232505.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2105786206",
+    "id" : "3578FBA2",
+    "lastKnownWriteTime" : 1574909608,
+    "last_content_update" : 1574909608619,
+    "path" : "C:/Users/Owner/Desktop/biocomputing/Biocom_exercise09/exercise9/exercise 9 completed.R",
+    "project_path" : "exercise 9 completed.R",
+    "properties" : {
+        "cursorPosition" : "17,142",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,6 @@
+Age	"Incidence (per 1,000 people) - White Males"
+35-44	0.8
+45-54	2
+55-64	3.8
+65-74	6.6
+75-84	9.1
